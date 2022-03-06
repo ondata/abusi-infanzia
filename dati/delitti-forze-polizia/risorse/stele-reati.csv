@@ -1,0 +1,78 @@
+CSV,XLS,categoria
+01.0 ATTENTATI,1. ATTENTATI,ATTENTATI
+02.0 STRAGE,2. STRAGE,STRAGE
+03.0 OMICIDI VOLONTARI CONSUMATI,3. OMICIDI VOLONTARI CONSUMATI,OMICIDI VOLONTARI CONSUMATI
+03.a Omicidi a scopo di furto o rapina,a. Omicidi a scopo di furto o rapina,OMICIDI VOLONTARI CONSUMATI
+03.b Omicidio di tipo mafioso,b. Omicidio di tipo mafioso,OMICIDI VOLONTARI CONSUMATI
+03.c Omicidio a scopo terroristico,c. Omicidio a scopo terroristico,OMICIDI VOLONTARI CONSUMATI
+04.0 INFANTICIDI,4. INFANTICIDI,INFANTICIDI
+05.0 TENTATI OMICIDI,5. TENTATI OMICIDI,TENTATI OMICIDI
+05.a Tentato omicidio a scopo di furto o rapina,a. Tentato omicidio a scopo di furto o rapina,TENTATI OMICIDI
+05.b Tentato omicidio di tipo mafioso,b. Tentato omicidio di tipo mafioso,TENTATI OMICIDI
+05.c Tentato omicidio a scopo terroristico,c. Tentato omicidio a scopo terroristico,TENTATI OMICIDI
+06.0 OMICIDIO PRETERINTENZIONALE,6. OMICIDIO PRETERINTENZIONALE,OMICIDIO PRETERINTENZIONALE
+07.0 OMICIDI COLPOSI,7. OMICIDI COLPOSI,OMICIDI COLPOSI
+07.a Omicidio da incidente stradale,a. Omicidio da incidente stradale,OMICIDI COLPOSI
+07.b Omicidio da incidente sul lavoro,b. Omicidio da incidente sul lavoro,OMICIDI COLPOSI
+08.0 LESIONI DOLOSE,8. LESIONI DOLOSE,LESIONI DOLOSE
+09.0 PERCOSSE,9. PERCOSSE,PERCOSSE
+10.0 MINACCE,10. MINACCE,MINACCE
+11.0 INGIURIE,11. INGIURIE,INGIURIE
+12.0 VIOLENZE SESSUALI,12. VIOLENZE SESSUALI,VIOLENZE SESSUALI
+12.a Violenza sessuale su maggiori di anni 14,a. Violenza sessuale su maggiori di anni 14,VIOLENZE SESSUALI
+12.b Violenza sessuale in danno di minori di anni 14,b. Violenza sessuale in danno di minori di anni 14,VIOLENZE SESSUALI
+12.c Violenza sessuale di gruppo su maggiori di anni 14,c. Violenza sessuale di gruppo su maggiori di anni 14,VIOLENZE SESSUALI
+12.d Violenza sessuale di gruppo in danno di minori di anni 14,d. Violenza sessuale di gruppo in danno di minori di anni 14,VIOLENZE SESSUALI
+13.0 ATTI SESSUALI CON MINORENNE,13. ATTI SESSUALI CON MINORENNE,ATTI SESSUALI CON MINORENNE
+14.0 CORRUZIONE DI MINORENNE,14. CORRUZIONE DI MINORENNE,CORRUZIONE DI MINORENNE
+15.0 FURTI,15. FURTI,FURTI
+15.a Furto con strappo,a. Furto con strappo,FURTI
+15.b Furto con destrezza,b. Furto con destrezza,FURTI
+15.c Furti in danno di uffici pubblici,c. Furti in danno di uffici pubblici,FURTI
+15.d Furti in abitazione,d. Furti in abitazione,FURTI
+15.e Furti in esercizi commerciali,e. Furti in esercizi commerciali,FURTI
+15.f Furti su auto in sosta,f. Furti su auto in sosta,FURTI
+15.g Furti di opere d'arte e materiale archeologico,g. Furti di opere d'arte e materiale archeologico,FURTI
+15.h Furti di automezzi pesanti trasportanti merci,h. Furti di automezzi pesanti trasportanti merci,FURTI
+15.i Furti di ciclomotori,i. Furti di ciclomotori,FURTI
+15.j Furti di motociclo,j. Furti di motociclo,FURTI
+15.k Furti di autovetture,k. Furti di autovetture,FURTI
+16.0 RICETTAZIONE,16. RICETTAZIONE,RICETTAZIONE
+17.0 RAPINE,17. RAPINE,RAPINE
+17.a Rapine in abitazione,a. Rapine in abitazione,RAPINE
+17.b Rapine in banca,b. Rapine in banca,RAPINE
+17.c Rapine in uffici postali,c. Rapine in uffici postali,RAPINE
+17.d Rapine in esercizi commerciali,d. Rapine in esercizi commerciali,RAPINE
+17.e Rapine a rappresentati di preziosi,e. Rapine a rappresentati di preziosi,RAPINE
+17.f Rapine a trasportatori di valori bancari,f. Rapine a trasportatori di valori bancari,RAPINE
+17.g Rapine a trasportatori di valori postali,g. Rapine a trasportatori di valori postali,RAPINE
+17.h Rapine in pubblica via,h. Rapine in pubblica via,RAPINE
+17.i Rapine di automezzi pesanti trasportanti merci,i. Rapine di automezzi pesanti trasportanti merci,RAPINE
+18.0 ESTORSIONI,18. ESTORSIONI,ESTORSIONI
+19.0 USURA,19. USURA,USURA
+20.0 SEQUESTRI DI PERSONA,20. SEQUESTRI DI PERSONA,SEQUESTRI DI PERSONA
+20.a Sequestri di persona a scopo estorsivo,a. Sequestri di persona a scopo estorsivo,SEQUESTRI DI PERSONA
+20.b Sequestri di persona per motivi sessuali,b. Sequestri di persona per motivi sessuali,SEQUESTRI DI PERSONA
+21.0 ASSOCIAZIONE PER DELINQUERE,21. ASSOCIAZIONE PER DELINQUERE,ASSOCIAZIONE PER DELINQUERE
+22.0 ASSOCIAZIONE DI TIPO MAFIOSO,22. ASSOCIAZIONE DI TIPO MAFIOSO,ASSOCIAZIONE DI TIPO MAFIOSO
+23.0 RICICLAGGIO E IMPIEGO DI DENARO,23. RICICLAGGIO E IMPIEGO DI DENARO,RICICLAGGIO E IMPIEGO DI DENARO
+24.0 TRUFFE E FRODI INFORMATICHE,24. TRUFFE E FRODI INFORMATICHE,TRUFFE E FRODI INFORMATICHE
+25.0 INCENDI,25. INCENDI,INCENDI
+25.a Incendi boschivi,a. Incendi boschivi,INCENDI
+26.0 DANNEGGIAMENTI,26. DANNEGGIAMENTI,DANNEGGIAMENTI
+27.0 DANNEGGIAMENTO SEGUITO DA INCENDIO,27. DANNEGGIAMENTO SEGUITO DA INCENDIO,DANNEGGIAMENTO SEGUITO DA INCENDIO
+28.0 CONTRABBANDO,28. CONTRABBANDO,CONTRABBANDO
+29.0 STUPEFACENTI,29. STUPEFACENTI,STUPEFACENTI
+29.a Produzione e traffico,a. Produzione e traffico,STUPEFACENTI
+29.b Spaccio,b. Spaccio,STUPEFACENTI
+29.c Associazione per produzione o traffico di stupefacenti,c. Associazione per produzione o traffico di stupefacenti,STUPEFACENTI
+29.d Associazione per spaccio di stupefacenti,d. Associazione per spaccio di stupefacenti,STUPEFACENTI
+30.0 SFRUTTAMENTO DELLA PROSTITUZIONE E PORNOGRAFIA MINORILE,30. SFRUTTAMENTO DELLA PROSTITUZIONE E PORNOGRAFIA MINORILE,SFRUTTAMENTO DELLA PROSTITUZIONE E PORNOGRAFIA MINORILE
+30.a Sfruttamento e favoreggiamento prostituzione minorile,a. Sfruttamento e favoreggiamento prostituzione minorile,SFRUTTAMENTO DELLA PROSTITUZIONE E PORNOGRAFIA MINORILE
+30.b Pornografia minorile,b. Pornografia minorile,SFRUTTAMENTO DELLA PROSTITUZIONE E PORNOGRAFIA MINORILE
+30.c Detenzione materiale pedopornografico,c. Detenzione materiale pedopornografico,SFRUTTAMENTO DELLA PROSTITUZIONE E PORNOGRAFIA MINORILE
+30.d Sfrutt. e favoreggiamento prostituzione non minorile,d. Sfrutt. e favoreggiamento prostituzione non minorile,SFRUTTAMENTO DELLA PROSTITUZIONE E PORNOGRAFIA MINORILE
+31.0 DELITTI INFORMATICI,31. DELITTI INFORMATICI,DELITTI INFORMATICI
+32.0 CONTRAFFAZIONE DI MARCHI E PRODOTTI INDUSTRIALI,32. CONTRAFFAZIONE DI MARCHI E PRODOTTI INDUSTRIALI,CONTRAFFAZIONE DI MARCHI E PRODOTTI INDUSTRIALI
+33.0 VIOLAZIONE ALLA PROPRIETA' INTELLETTUALE,33. VIOLAZIONE ALLA PROPRIETA' INTELLETTUALE,VIOLAZIONE ALLA PROPRIETA' INTELLETTUALE
+34.0 ALTRI DELITTI,34. ALTRI DELITTI,ALTRI DELITTI
