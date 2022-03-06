@@ -22,3 +22,13 @@ Tre raggruppamenti geografici: nazionale, per regione, per provincia.
 
 # Note di lavoro
 
+- il separatore dei CSV è `;`;
+- l'encoding sembra `ISO-8859-1` (via chardetect)
+- nel file XLS dei delitti del 2020 la colonna con i tipi di reato si chiama `DELITTO`, nel CSV del 2019 si chiama `Reato`
+- il file CSV delitti del 2019 ha per una sola cella, una colonna in più
+- ci sono righe con i totali, sono da togliere
+- nel CSV dei delitti del 2019 c'è il separatore delle migliaia. Da rimuovere
+- nel CSV dei delitti del 2019 la categoria `02. 0 STRAGE` è da correggere in `02.0 STRAGE`
+- nel CSV dei delitti del 2017 non c'è il campo regioni
+- i nomi provincia a volte sono in tutto maiuscolo, a volte no
+- non ci sono i codici geografici
