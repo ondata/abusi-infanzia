@@ -5,7 +5,9 @@ Si tratta dei "**Numero dei Delitti denunciati all'autorità Giudiziaria dalle f
 La fonte è l'ufficio centrale di statistica del Ministero degli interni:<br>
 <http://ucs.interno.gov.it/ucs/contenuti/Numero_dei_delitti_denunciati_all_autorita_giudiziaria_dalle_forze_di_polizia_int_00062-7730889.htm>
 
-I dati del 2020, non pubblicati al 6 marzo 2022, sono stati ottenuti con una PEC inviata dall'Associazione onData all'ufficio statistico.
+I dati grezzi, così come dalla fonte, sono stati archivati in [questa cartella](rawdata).
+
+Quelli del 2020 - ancora non pubblicati sul sito al 6 marzo 2022 - sono stati ottenuti con una richiesta via PEC inviata dall'Associazione onData all'ufficio statistico.
 
 I dati relativi alla delittuosità "Anno 2021" non sono ancora disponibili perché in fase di consolidamento da parte dell’ufficio competente. Saranno disponibili nel periodo settembre/ottobre per i dati che si riferiscono all'anno precedente.
 
