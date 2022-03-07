@@ -1,0 +1,10 @@
+- nome: "rawdata/Codici-statistici-e-denominazioni-al-01_01_2022.csv"
+  format: "CSV"
+  data-download: 2022-03-06
+  pagina-fonte: https://www.istat.it/it/archivio/6789
+  URL-risorsa: https://www.istat.it/storage/codici-unita-amministrative/Elenco-codici-statistici-e-denominazioni-delle-unita-territoriali.zip
+- nome: "rawdata/province-popolazione.csv"
+  format: "CSV"
+  data-download: 2022-03-07
+  pagina-fonte: https://demo.istat.it/popres/download.php?anno=2021&lingua=ita
+  URL-risorsa: https://demo.istat.it/pop2021/dati/province.zip
