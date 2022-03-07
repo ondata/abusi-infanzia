@@ -73,7 +73,7 @@ mlr --csv join --ul -j Reato -l Reato -r XLS -f processing/2020.csv then unspars
 
 mv "$folder"/processing/tmp-04.csv "$folder"/processing/2020.csv
 
-mlr --csv filter -x 'tolower($Reato)=~"otal"' then filter -x 'is_null($Totale)' then sort -f ANNO,Provincia then put -S '$Totale=sub($Totale,"\.0$","");$Totale=sub($Totale,"\.","");$Provincia=toupper($Provincia)' "$folder"/processing/20[12][7890].csv >"$folder"/../../dati/delitti-forze-polizia/output/numero-delitti-per-provincia.csv
+mlr --csv filter -x 'tolower($Reato)=~"otal"' then filter -x 'is_null($Totale)' then filter -x '$Totale==0' then sort -f ANNO,Provincia then put -S '$Totale=sub($Totale,"\.0$","");$Totale=sub($Totale,"\.","");$Provincia=toupper($Provincia)' "$folder"/processing/20[12][7890].csv >"$folder"/../../dati/delitti-forze-polizia/output/numero-delitti-per-provincia.csv
 
 # aggiungi codice province
 
@@ -94,5 +94,11 @@ mv "$folder"/processing/tmp.csv "$folder"/../../dati/delitti-forze-polizia/outpu
 # aggiungi categoria reato macro livello
 
 mlr --csv join --ul -j Reato -l Reato -r CSV -f "$folder"/../../dati/delitti-forze-polizia/output/numero-delitti-per-provincia.csv then unsparsify then cut -x -f XLS then reorder -f categoria then sort -f ANNO,Provincia,Reato,categoria "$folder"/../../dati/delitti-forze-polizia/risorse/stele-reati.csv >"$folder"/processing/tmp.csv
+
+mv "$folder"/processing/tmp.csv "$folder"/../../dati/delitti-forze-polizia/output/numero-delitti-per-provincia.csv
+
+# aggiungi data popolazione
+
+mlr --csv join --ul -j "Codice Provincia" -l "Codice Provincia Storico" -r "Codice Provincia" -f "$folder"/../../dati/delitti-forze-polizia/output/numero-delitti-per-provincia.csv then unsparsify then put '$ratio=$Totale/${Totale Popolazione}*100000' "$folder"/../../dati/risorse/province-popolazione.csv >"$folder"/processing/tmp.csv
 
 mv "$folder"/processing/tmp.csv "$folder"/../../dati/delitti-forze-polizia/output/numero-delitti-per-provincia.csv
