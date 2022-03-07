@@ -25,6 +25,7 @@ Tre raggruppamenti geografici: nazionale, per regione, per provincia.
 - conferma dello "0 reati" per categoria 12.c e 12.d. Come è possibile?
 - manca la Provincia del Sud Sardegna: come mai?
 - capire come funzionano le categorie di alto livello, perché spesso il totale non è la somma delle voci di categoria di rango inferiore. Ad esempio per il 2020, ad Agrigento, per la categoria `15.0` ci sono 2277 reati, ma la somma delle altre categorie è 1145
+  - potrebbe dipendere dalla nota di sopra, per cui quando un reato non è localizzato rispetto alla provincia, si mette a livello regionale, ma la differenza è troppo grande
 
 # Verifiche da fare
 
