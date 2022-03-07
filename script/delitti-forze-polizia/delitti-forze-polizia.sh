@@ -99,6 +99,6 @@ mv "$folder"/processing/tmp.csv "$folder"/../../dati/delitti-forze-polizia/outpu
 
 # aggiungi data popolazione
 
-mlr --csv join --ul -j "Codice Provincia" -l "Codice Provincia Storico" -r "Codice Provincia" -f "$folder"/../../dati/delitti-forze-polizia/output/numero-delitti-per-provincia.csv then unsparsify then put '$ratio=$Totale/${Totale Popolazione}*100000' "$folder"/../../dati/risorse/province-popolazione.csv >"$folder"/processing/tmp.csv
+mlr --csv join --ul -j "Codice Provincia Storico" -l "Codice Provincia Storico" -r "Codice Provincia" -f "$folder"/../../dati/delitti-forze-polizia/output/numero-delitti-per-provincia.csv then unsparsify then put '$ratio=$Totale/${Totale Popolazione}*100000' "$folder"/../../dati/risorse/province-popolazione.csv >"$folder"/processing/tmp.csv
 
 mv "$folder"/processing/tmp.csv "$folder"/../../dati/delitti-forze-polizia/output/numero-delitti-per-provincia.csv
