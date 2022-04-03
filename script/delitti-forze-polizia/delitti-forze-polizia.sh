@@ -100,4 +100,5 @@ mv "$folder"/processing/tmp.csv "$folder"/../../dati/delitti-forze-polizia/outpu
 # aggiungi dati popolazione e rapporto reati ogni 100.000 abitanti (colonna "ratio")
 mlr --csv join --ul -j "Codice Provincia Storico" -l "Codice Provincia Storico" -r "Codice Provincia" -f "$folder"/../../dati/delitti-forze-polizia/output/numero-delitti-per-provincia.csv then unsparsify then put '$ratio=$Totale/${Totale Popolazione}*100000' "$folder"/../../dati/risorse/province-popolazione.csv >"$folder"/processing/tmp.csv
 
-mv "$folder"/processing/tmp.csv "$folder"/../../dati/delitti-forze-polizia/output/numero-delitti-per-provincia.csv
+mv "$folder"/processing/tmp.csv "$folder"/../../dati/delitti-forze-polizia/output/numero-delitti-per-provincia-popolazione100k.csv
+
